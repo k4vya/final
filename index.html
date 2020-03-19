@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - FINAL</title>
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Coronavirus Details</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mailto:kavyai@uw.edu">Contact</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            King County
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="https://www.kingcounty.gov/depts/health/communicable-diseases/disease-control/novel-coronavirus.aspx">Coronavirus details</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="jumbotron">
+    <h1 class="display-4">Coronavirus 2020</h1>
+    <p class="lead">This site provides more information about the 2020 Coronavirus crisis that has infected every corner of the globe.</p>
+    <p class="jumbo-text">Created by Kavya Iyer</p>
+    <a class="btn btn-primary btn-lg" href="https://www.cdc.gov/coronavirus/2019-ncov/index.html" role="button">CDC Information</a>
+  </div>
+  <!---SYMPTOMS--->
+  <h2> Top 3 Symptoms to Watch Out For</h2>
+  <p class="sub">Please remember that symptoms can take from <b>2-14 days </b> to show themselves</p>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <div class="card" style="width: 20rem;">
+          <img src="https://i0.wp.com/cdn-prod.medicalnewstoday.com/content/images/articles/321/321502/woman-in-bed-with-a-fever-wondering-if-allergies-can-cause-a-fever.jpg?w=1155&h=1541" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Fever</h5>
+            <p class="card-text"> Fevers are classified as bodily temperatures of above normal (37C)
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="card" style="width: 20rem;">
+          <img src="https://www.afcurgentcarechattanoogatn.com/wp-content/uploads/2018/12/QmxvZy01OTYw.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cough</h5>
+            <p class="card-text">Coronavirus coughs are characteristically dry, not wet.
+            </p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="card" style="width: 20rem;">
+          <img src="https://i0.wp.com/cdn-prod.medicalnewstoday.com/content/images/articles/327/327359/a-woman-experience-acid-reflux-and-shortness-of-breath.jpg?w=1155&h=1297" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Shortness of Breath</h5>
+            <p class="card-text">This is one of the most important symptoms to watch out for. Shortness of breath can affect people with pre-existing respitory symptoms.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <!--- TABLE --->
+  <h2> Top 5 States Based on Num Cases </h2>
+  <p class="sub">Click "View" to expand table.</p>
+  <table align="center">
+    <title>PNW Stocks</title>
+    <tr>
+      <th>State</th>
+      <th>Cases</th>
+      <th>Deaths</th>
+      <th>Overall Pop (M)</th>
+    </tr>
+    </thead>
+    <tbody id="dataset">
+    </tbody>
+  </table>
+  <div class="table-button"> <button type="button" class="btn btn-primary btn-sm" onclick="hitEvent()">View</button> </div>
+
+  <hr>
+  <h2>Hand Washing</h2>
+  <p class="sub">Thoroughly washing one's hands with soap has been noted as the easiest way to prevent catching the coronavirus. Click on the image below to view a video on how to properly wash one's hands. </p>
+  <a href="https://www.youtube.com/watch?v=seA1wbXUQTs">
+    <img class="hands" alt="link" src="./Images/hands.jpg" width="700" height="500"></a>
+  <hr>
+
+  <h2> Ways to Avoid Catching & Spreading the Virus </h2>
+  <p class="sub"> Listed below are some of the most important ways you can ensure you don't catch the virus or spread it to the people around you </p>
+  <ul class="list-unstyled">
+    <li class="media">
+      <img src="https://cdn0.iconfinder.com/data/icons/air-pollution-1/64/nose-mouth-pollution-breath-512.png" class="mr-3" alt="..." width="80" height="80">
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">Don't touch Face</h5>
+        Avoid touching your face, nose, mouth, or ears during the day. Doing so can spread the virus much easier into your body!
+      </div>
+    </li>
+    <li class="media my-4">
+      <img src="https://cdn4.iconfinder.com/data/icons/healthy-life-line-color-live-long-and-prosper/512/Hand_washing-512.png" class="mr-3" alt="..." width="80" height="80">
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">Wash your hands often</h5>
+        The virus can stay alive for days on various surfaces including plastics and metals, so washing your hands often is a key way to combat this! Scroll up for more information.
+      </div>
+    </li>
+    <li class="media">
+      <img src="https://cdn4.iconfinder.com/data/icons/stop-virus-outline-iconset/128/ic_distancing-512.png" class="mr-3" alt="..." width="80" height="80">
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">Social Distancing is Key</h5>
+        Coronavirus infects exponentially, so making sure you stay away from other people is important in order to flatten the curve of infection. Work from home, avoid public settings and large gatherings, and only leave the home when absolutely necessary, such as to buy groceries. If you are in a public space for an essential reason, keep 6+ feet of space from others.
+      </div>
+    </li>
+  </ul>
+</body>
+
+</html>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-3.4.1.slim.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

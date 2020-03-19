@@ -1,0 +1,59 @@
+div.container {
+  background-color: #9d6b65;
+}
+
+div.card {
+  height: 25rem;
+}
+
+#carouselExampleIndicators {
+  size: max-auto;
+}
+
+body {
+  background-color: #9d6b65;
+}
+
+div.jumbotron {
+  background-image: url(https://media.pri.org/s3fs-public/styles/w2304/public/images/2020/03/health-coronavirus-southkorea.jpg?itok=Het1ElZm);
+}
+
+h1.display-4 {
+  color: white;
+}
+
+p.lead {
+  color: white;
+}
+
+p.jumbo-text {
+  color: white;
+}
+
+p.card-text {
+  font-size: 16px;
+}
+
+th {
+  width: 200px;
+  padding: 4px;
+}
+
+h2 {
+  color: #9d6b65;
+  text-align: center;
+}
+p.sub {
+  text-align: center;
+}
+
+img.hands {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+div.table-button {
+  text-align: center;
+}
